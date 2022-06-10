@@ -13,4 +13,4 @@
 >
 >Linux example: docker run -d -p 8080:8080 --name Larave-Api -v /home/Laravel-Api>:/var/www/html laravelapi
 
-5.Done its running on your localhost:8080 !
+5. Done its running on your localhost:8080 !
