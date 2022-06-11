@@ -37,8 +37,8 @@ This is a simple balance using Laravel as api!
 return the balance of informed id
 > example : /bance?account_id=ID
 
-### [get] /bance (account_id = int)
-return the balance of informed id
+### [post] /reset (void)
+delete all accounts
 
 ### [post] /event (json object)
 do transactions like :
