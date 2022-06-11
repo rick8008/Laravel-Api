@@ -13,14 +13,14 @@ class BalanceController extends Controller
     
     // function to return account balance ;
     // input =   GET account_id  ;
-    // output = json object or 404 0;
+    // output = 200 value or 404 0;
 
     public function index(Request $request){
         
         $account_id = $request->input('account_id');
         if(Storage::disk('local')->exists($account_id.'.json')){
             $accountInfo = json_decode(Storage::disk('local')->get($account_id.'.json') , true) ;
-            $returnJson =json_encode( ["description" => ["id" =>$account_id , "balance" =>$accountInfo["balance"] ]]);
+            $returnJson =$accountInfo["balance"];
             $returnStatus = 200;
         }else{
             $returnJson = 0;
