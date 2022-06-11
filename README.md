@@ -2,7 +2,7 @@
 
 1. Download or clone the project!
 2. Make sure that you have docker already installed. (*[Download Here](https://docs.docker.com/get-docker/)*)
-3. On cli inside the project folder create the docker image: 
+3. Create the docker image using cli inside the project folder : 
 > docker build -t laravelapi -< Dockerfile
 
 4. Create a application of the image that you create passing the path of the project:
