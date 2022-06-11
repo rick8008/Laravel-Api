@@ -12,7 +12,7 @@ class EventController extends Controller
 
     // function to recive the object 
     // input =   json request ;
-    // output = json object;
+    // output = json object or 404 0;
 
     public function index(Request $request){
 
