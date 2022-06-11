@@ -23,7 +23,7 @@ This is a simple balance using Laravel as api!
 
 ## Running the server on local
 1. Download or clone the project.
-2. Make sure that you have thos packages already installed.
+2. Make sure that you have those packages already installed.
 > php php-curl curl wget php-mbstring php-gd php-zip zip unzip php-dom composer.
 3. Install the Composer vendor:
 > composer install
